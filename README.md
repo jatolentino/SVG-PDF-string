@@ -1,5 +1,3 @@
-https://github.com/jatolentino/SVG-PDF-string/blob/main/sample.jpg
-
 ![Github All Releases](https://img.shields.io/github/downloads/jatolentino/SVG-PDF-string/total?logo=GitHub&style=plastic)
 ![GitHub repo size](https://img.shields.io/github/repo-size/jatolentino/SVG-PDF-string)
 ![GitHub language count](https://img.shields.io/github/languages/count/jatolentino/SVG-PDF-string?color=success&logo=CodersRank&logoColor=%23FFFFFF)
