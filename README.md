@@ -1,4 +1,18 @@
+https://github.com/jatolentino/SVG-PDF-string/blob/main/sample.jpg
+
+![Github All Releases](https://img.shields.io/github/downloads/jatolentino/SVG-PDF-string/total?logo=GitHub&style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/jatolentino/SVG-PDF-string)
+![GitHub language count](https://img.shields.io/github/languages/count/jatolentino/SVG-PDF-string?color=success&logo=CodersRank&logoColor=%23FFFFFF)
+[![version](https://img.shields.io/badge/version-1.8-red.svg)](//npmjs.com/package/SVG-PDF-string)
+
+
+
+
 # SVG-PDF-string
+
+<p align="center">
+    	<img src="https://github.com/jatolentino/SVG-PDF-string/blob/0a184df97393508e2abc89f18001d4ee6bc347ae/sample.jpg">
+</p>
 
 ## Specifications:
 The pdf file is a predefined template whose letters are not images
@@ -16,7 +30,7 @@ Check svg version, open the exported svg file with Notepad++ and verify => versi
 
 ### 4. SVG properties
 Next, open the svg file with Inkscape and change the units of the document (a4 or letter, depending of your jsPDF configs), pt is preferebly because it's easy to calculate distances.
-See the file distances-svg-jspdf.png
+See the file distances-svg-jspdf.jpg
 
 ### 5. Correct SVG width and height
 Open the SVG file again with Notepad++ and edit:
