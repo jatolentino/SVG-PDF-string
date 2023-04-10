@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>svg-String-PDF</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.56.0/codemirror.min.css"
+      integrity="sha512-/BlxZbYLtYGExexketXsTi47eHp+r2kTeq2OHecQPZlfbc7WFXVrwbVW9HOYjI6c9Ti+P60ASmVLxittZ0EBGw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ 
+    <header>
+      
+      <a style="margin: 0 auto">
+        <h1> svg2pdf<span class="hide-when-small"> | SVG String to PDF</span></h1>
+      </a>
+    </header>
+
+    <div class="content">
+      <div class="description">
+        <h2>Svg2pdf Playground</h2>
+        <p>
+          Add a SVG as a constant string in JS and see the pdf
+        </p>
+        
+      </div>
+      <div class="cards-container">
+        <div>
+          <h3>Ex. SVG JS constant String (this box is not editable!)</h3>
+          <div id="editor">
+					<textarea disabled style="height: 600px;
+  width: 550px;background: #F7F9FF; font-size: 15px" id="story" name="story"
+          rows="5" cols="33" >
+SVG file:
+<svg width="210" height="297" viewBox="0 0 210 297">
+  <text style="font: 15px Helvetica, sans-serif;" y="40" x="40">
+    Hello world!
+  </text>
+</svg>
+
+JS string (should be added in one line constant string):
+const svgElement = '<svg width="210" height="297" viewBox="0 0 210 297"> <text style="font: 15px Helvetica, sans-serif;" y="40" x="40">Hello world!</text> </svg>'
+
+</textarea>
+					</div>
+					
+        </div>
+
+        <div>
+          <h3>PDF</h3>
+          <div id="pdf-container">
+            <iframe id="pdf-iframe"></iframe>
+          </div>
+        </div>
+      </div>
+
+			<div style="margin-top: 3rem; position: absolute; left: 50%; transform: translate(-50%, -50%);">
+					<button onClick="updatePdf()">Generate</button>
+			</div>
+
+    </div>
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.56.0/codemirror.min.js"
+      integrity="sha512-H5RyE1jRbGn8d0dsSstZi0SSs23X6Hkkf5hLneEIFyCfP/cBwJ/jFJESBuFBiUyzbGZGa06tnrvw1SboRKdwcA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.56.0/mode/xml/xml.min.js"
+      integrity="sha512-k1HnoY9EXahEfPz7kq/lD9DltloKH9OrB9XNKYoUQrNz9epe5F4mQP5PfuIfeRfoXHkNrE0gF3Mx4LhC5BVl9Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.0.12/purify.min.js"
+      integrity="sha512-Pkzp1f+T81Q7K8Dhj8Sc6SPhl+4D5JEe9TTjJLy7xbv+EdxStU9uRXEVzYOqjP+s6+lDAXo3nZ04szSG71ArhA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.0.0/jspdf.umd.min.js"
+      integrity="sha512-g77bZKU4ktH2I5nNioWzOMcbd3fN/svB0vQM73Uo5GRn/EGfcSJB0DlR1ithxnFsDaa0HmlOwHYiUFeM1P3RRw=="
+      crossorigin="anonymous"
+    ></script>
+    <!--<script src="dist/svg2pdf.umd.min.js"></script> -->
+		<script src="https://raw.githack.com/yWorks/svg2pdf.js/master/dist/svg2pdf.umd.min.js"></script>
+		
+    <script src="main.js"></script>
+  </body>
+</html>
