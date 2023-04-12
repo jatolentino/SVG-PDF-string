@@ -3,7 +3,6 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/jatolentino/SVG-PDF-string?color=success&logo=CodersRank&logoColor=%23FFFFFF)
 [![version](https://img.shields.io/badge/version-1.8-red.svg)](//npmjs.com/package/SVG-PDF-string)
 
-
 # SVG-PDF-string
 
 <p align="center">
