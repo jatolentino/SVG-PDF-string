@@ -10,7 +10,7 @@
 </p>
 
 ## Specifications:
-The pdf file is a predefined template whose letters are not images
+The pdf file is a predefined template which letters are not images
 
 ## Consideration to add the SVG file as a string
 ### 1. Font type and size
