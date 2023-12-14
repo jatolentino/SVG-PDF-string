@@ -9,6 +9,7 @@
     	<img src="https://github.com/jatolentino/SVG-PDF-string/blob/0a184df97393508e2abc89f18001d4ee6bc347ae/sample.jpg">
 </p>
 
+
 ## Specifications:
 The pdf file is a predefined template which letters are not images
 
